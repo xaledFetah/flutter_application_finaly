@@ -19,6 +19,7 @@ class _addCityshipPageState extends State<addCityshipPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        margin: EdgeInsets.only(top: 50),
         padding: EdgeInsets.all(10),
         color: Colors.white,
         child: Card(

@@ -47,7 +47,10 @@ class _DropdownFCState extends State<DropdownFC> {
         // the items drop dropdown
         items: itemsL
             .map((abc) => DropdownMenuItem(
-                  child: Container(child: Text("$abc")),
+                  child: Container(
+                      alignment: Alignment.topRight,
+                      margin: EdgeInsets.symmetric(horizontal: 20, vertical: 0),
+                      child: Text("$abc")),
                   value: abc,
                 ))
             .toList(),
